@@ -6,7 +6,7 @@ authors = ["dunossauro <mendesxeduardo@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-Flask = "1.0"
+Flask = "0.6"
 pytest = "^6.2.3"
 safety = "^1.10.3"
 pyupio = "^1.1.2"
