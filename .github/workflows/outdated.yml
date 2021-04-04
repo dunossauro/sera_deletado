@@ -1,4 +1,4 @@
-name: Safety
+name: Oudated
 
 on: [push, pull_request]
 
@@ -35,7 +35,6 @@ jobs:
         run: poetry install
         if: steps.cache-primes.outputs.cache-hit != 'true'
 
-      - name: Check security
+      - name: Check oudated packages
         run: |
-          poetry export > requirements.txt
-          poetry run safety check
+          poetry run pip list -o
