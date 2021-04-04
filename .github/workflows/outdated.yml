@@ -37,5 +37,5 @@ jobs:
 
       - name: Check oudated packages
         run: |
-          pip list -o
-          $(exit $(pip list -o | grep Package -c))
+          poetry run pip list -o
+          $(exit $(poetry run pip list -o | grep Package -c))
