@@ -8,6 +8,7 @@ authors = ["dunossauro <mendesxeduardo@gmail.com>"]
 python = "^3.9"
 Flask = "0.12.5"
 pytest = "^6.2.3"
+safety = "^1.10.3"
 
 [tool.poetry.dev-dependencies]
 
