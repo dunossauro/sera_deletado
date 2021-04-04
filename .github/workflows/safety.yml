@@ -36,4 +36,6 @@ jobs:
         if: steps.cache-primes.outputs.cache-hit != 'true'
 
       - name: test
-        run: poetry run safety check
+        run: |
+          poetry export > requirements.txt
+          poetry run safety check
