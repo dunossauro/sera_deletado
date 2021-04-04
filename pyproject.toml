@@ -9,6 +9,8 @@ python = "^3.9"
 Flask = "1.0"
 pytest = "^6.2.3"
 safety = "^1.10.3"
+pyupio = "^1.1.2"
+pip-check = "^2.6"
 
 [tool.poetry.dev-dependencies]
 
